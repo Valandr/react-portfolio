@@ -1,11 +1,15 @@
 .logo {
     font-size: 20px;
-    color: blue;
+    color: #fff;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #84CCDD;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav ul {
@@ -19,4 +23,5 @@ nav ul li {
 
 nav ul li a {
    text-decoration: none; 
+   color: #fff;
 }
