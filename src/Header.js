@@ -4,7 +4,7 @@ import './Header.css'
 
 const heroImage = {
     backgroundImage: `url(${Profile})`,
-    height: '50vh',
+    height: '60vh',
     backgroundSize: 'cover'
 }
 class Header extends Component {

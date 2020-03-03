@@ -10,7 +10,7 @@ class Navigation extends Component {
             );
         });
         return (
-            <div>
+            <div className="navig">
                 <nav>
                     <h2 className="logo">{this.props.logoTitle}</h2>
                     <ul>

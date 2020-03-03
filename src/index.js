@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
 import Navigation from './Navigation';
 import Header from './Header'
-// import App from './App';
+import Services from './Services'
 import * as serviceWorker from './serviceWorker';
 
 class App extends React.Component {
@@ -12,6 +11,7 @@ class App extends React.Component {
             <div>
                 <Navigation logoTitle="Valérie ANDRIANI" />
                 <Header title="WELCOME"/>
+                <Services />
             </div>
             
         )
